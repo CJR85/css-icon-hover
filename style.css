@@ -30,6 +30,7 @@ body {
   list-style: none;
   width: 70px;
   height: 70px;
+  z-index: 1;
 }
 
 .navigation ul li a {
@@ -67,4 +68,14 @@ body {
 
 .navigation ul li.active a .text {
   transform: scale(1);
+}
+
+.indicator {
+  position: absolute;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  background: #f00;
+  border-radius: 10px;
+  transition: 0.5s;
 }
